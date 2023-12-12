@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="20dp"
+    android:paddingBottom="48dp"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <ImageButton
+        android:id="@+id/btn_take_photo"
+        android:layout_width="@dimen/camera_take_photo_size"
+        android:layout_height="@dimen/camera_take_photo_size"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/camera_desc_take_photo"
+        android:src="@drawable/camera_btn_take_photo" />
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/btn_"-->
+    <!--        android:layout_width="60dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:background="@android:color/transparent"-->
+    <!--        android:src="@drawable/camera_btn_take_photo" />-->
+
+</LinearLayout>

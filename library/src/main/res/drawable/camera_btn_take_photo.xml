@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--按下状态-->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#66FFFFFF" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/camera_take_photo_pressed_radius" android:left="@dimen/camera_take_photo_pressed_radius" android:right="@dimen/camera_take_photo_pressed_radius" android:top="@dimen/camera_take_photo_pressed_radius">
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorPrimary" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- 选中状态 -->
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#66FFFFFF" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/camera_take_photo_pressed_radius" android:left="@dimen/camera_take_photo_pressed_radius" android:right="@dimen/camera_take_photo_pressed_radius" android:top="@dimen/camera_take_photo_pressed_radius">
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorPrimary" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!--默认状态-->
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#66FFFFFF" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/camera_take_photo_radius" android:left="@dimen/camera_take_photo_radius" android:right="@dimen/camera_take_photo_radius" android:top="@dimen/camera_take_photo_radius">
+                <shape android:shape="oval">
+                    <solid android:color="#CCFFFFFF" />
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+
+</selector>
