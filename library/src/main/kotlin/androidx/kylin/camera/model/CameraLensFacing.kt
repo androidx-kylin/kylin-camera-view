@@ -11,10 +11,10 @@ enum class CameraLensFacing {
     /**
      * 前置
      */
-    FRONT,
+    Front,
 
     /**
      * 后置
      */
-    BACK
+    Back
 }

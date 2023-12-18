@@ -18,11 +18,5 @@
         android:contentDescription="@string/camera_desc_take_photo"
         android:src="@drawable/camera_btn_take_photo" />
 
-    <!--    <ImageButton-->
-    <!--        android:id="@+id/btn_"-->
-    <!--        android:layout_width="60dp"-->
-    <!--        android:layout_height="60dp"-->
-    <!--        android:background="@android:color/transparent"-->
-    <!--        android:src="@drawable/camera_btn_take_photo" />-->
 
 </LinearLayout>

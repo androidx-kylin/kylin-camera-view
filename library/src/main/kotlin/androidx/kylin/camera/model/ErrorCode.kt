@@ -6,7 +6,7 @@ package androidx.kylin.camera.model
  * @date 2023/12/12
  * @copyright Copyright (c) https://github.com/raedev All rights reserved.
  */
-enum class CameraErrorCode {
+enum class ErrorCode {
 
     /**
      * 无权限

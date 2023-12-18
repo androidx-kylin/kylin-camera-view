@@ -10,10 +10,9 @@ import androidx.camera.core.AspectRatio
  */
 data class CameraOptions(
     /** 相机镜头，默认为后置镜头。 */
-    val facing: CameraLensFacing = CameraLensFacing.BACK,
+    val facing: CameraLensFacing = CameraLensFacing.Back,
     /** 相机比例，默认16:9 */
     val aspectRatio: Int = AspectRatio.RATIO_16_9,
-
     /** 照片是否写入Exif信息，默认不写入。 */
     val writeExifInfo: Boolean = false,
 )

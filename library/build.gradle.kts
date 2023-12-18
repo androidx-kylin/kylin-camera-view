@@ -35,6 +35,8 @@ android {
 dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.kylin:core:1.0.0")
 
     // camerax dependencies
     val cameraVersion = "1.4.0-alpha02"
@@ -46,5 +48,5 @@ dependencies {
 
     /** optional */
     // support compass for camera. https://github.com/raedev/android-compass
-    compileOnly("com.github.raedev:compass:1.0.2")
+    compileOnly("com.github.raedev:android-compass:1.0.2")
 }

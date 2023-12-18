@@ -6,22 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.kylin.camera.view.CameraView
-        android:id="@+id/camera_view"
+    <androidx.kylin.camera.view.CameraLayout
+        android:id="@+id/camera_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.kylin.camera.view.CaptureControlView
-            android:id="@+id/capture_control_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
-    </androidx.kylin.camera.view.CameraView>
+    </androidx.kylin.camera.view.CameraLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,12 +1,10 @@
-package androidx.kylin.camera
+package androidx.kylin.camera.model
 
 import android.annotation.SuppressLint
 import android.location.Location
 import android.media.ExifInterface
 import android.os.Build
 import androidx.annotation.RequiresApi
-import androidx.kylin.camera.model.CameraMediaInfo
-import androidx.kylin.camera.model.DeviceSensorInfo
 import org.json.JSONObject
 import java.io.File
 import java.text.SimpleDateFormat
